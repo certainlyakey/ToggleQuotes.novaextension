@@ -1,0 +1,21 @@
+{
+  "identifier": "aleksandrbeliaev.ToggleQuotes",
+  "name": "Toggle Quotes",
+  "organization": "Aleksandr Beliaev",
+  "description": "Quickly toggle quotes for current selection.",
+  "version": "0.0.1",
+  "categories": ["commands"],
+  "bugs": "https://github.com/certainlyakey/ToggleQuotes.novaextension/issues",
+  "main": "main.js",
+
+  "commands": {
+    "editor": [
+      {
+        "title": "Toggle Quotes",
+        "command": "toggleQuotes.toggleQuotes",
+        "shortcut": "ctrl-'",
+        "when": "editorHasFocus && editorHasSelection"
+      }
+    ]
+  }
+}
